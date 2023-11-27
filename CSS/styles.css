@@ -8,7 +8,7 @@ body {
 /* Header styles */
 header {
   background-color: lightblue;
-  color: #fff;
+  color: lightblue;
   text-align: center;
   padding: 20px;
 }
@@ -47,7 +47,7 @@ article, aside {
 /* Footer styles */
 footer {
   background-color: pink;
-  color: #fff;
+  color: pink;
   text-align: center;
   padding: 10px;
   position: absolute;
