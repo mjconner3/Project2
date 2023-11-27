@@ -1,68 +1,56 @@
 /* Body styles */
 body {
-  font-family: Tahoma, Verdana, Geneva, sans-serif;
-  margin: 6em;
-  font-weight: bold;
-  background-color: pink;
-  border: 2px solid rgb(175, 175, 175);
-  border-color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /* Header styles */
 header {
+  background-color: #333;
+  color: #fff;
   text-align: center;
-  color: #395e64;
-  padding: 5%;
-  background-color: #1C3144;
-  width: 75%;
-  margin: 0 auto; /* Center header */
+  padding: 20px;
 }
 
 /* Navigation styles */
-nav {
-  text-align: center; /* Align content of the nav */
-}
-
 nav ul {
   list-style: none;
-  padding: 10px;
-  border: 1px solid #000;
-  background-color: #ffffff;
-  color: #000; /* Changed text color to black for better visibility */
-  display: flex;
-  justify-content: center; /* Center-align the list items */
+  margin: 0;
+  padding: 0;
 }
 
 nav li {
-  margin-right: 20px;
-  border: 1px solid #fff; /* Borders on li elements removed for better appearance */
+  display: inline;
+  margin-right: 10px;
 }
 
-a {
+nav a {
   text-decoration: none;
-  color: pink;
-  background-color: lightblue;
-  border: 2px solid rgb(175, 175, 175);
-  border-radius: 6px;
-  padding: .5em 1em;
-  transition: background-color 0.3s, border-color 0.3s, transform 0.3s; /* Adjusted transition */
+  color: #333;
+  font-weight: bold;
 }
 
-a:hover,
-a:focus {
-  background-color: white;
-  border-color: pink;
-  transform: translateY(-3px); /* Shift up slightly on hover */
+/* Content layout */
+.content {
+  display: flex;
+  justify-content: space-between;
 }
 
-a:active {
-  transform: translateY(1px); /* Slight downward shift on active */
+article, aside {
+  width: 48%; /* Set widths for content and sidebar */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: white;
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
